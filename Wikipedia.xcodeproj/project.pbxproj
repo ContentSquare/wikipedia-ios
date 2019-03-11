@@ -86,6 +86,8 @@
 		0EF863511C19E4F100006D2D /* WMFEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF863501C19E4F100006D2D /* WMFEmptyView.m */; };
 		19A175F095F5197BA20EA8BA /* NSUserActivity+WMFExtensionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A172FA6AE61E76FCEF4259 /* NSUserActivity+WMFExtensionsTest.m */; };
 		19A17B36FFB48307FF04C07F /* SavedPageSpotlightManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A171644189467D5A195AE3 /* SavedPageSpotlightManagerTest.m */; };
+		267EA12C2236BD2C00C6F032 /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267EA1272236BD0C00C6F032 /* ContentSquare.framework */; };
+		267EA12D2236BD5D00C6F032 /* ContentSquare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 267EA1272236BD0C00C6F032 /* ContentSquare.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41CCB67421CC1F9700206B47 /* SavedArticlesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CCB67321CC1F9700206B47 /* SavedArticlesCollectionViewController.swift */; };
 		41CCB67521CC1F9700206B47 /* SavedArticlesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CCB67321CC1F9700206B47 /* SavedArticlesCollectionViewController.swift */; };
 		41CCB67621CC1F9700206B47 /* SavedArticlesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CCB67321CC1F9700206B47 /* SavedArticlesCollectionViewController.swift */; };
@@ -2902,6 +2904,27 @@
 			remoteGlobalIDString = 0E8380621D64989F0076EDE4;
 			remoteInfo = ContinueReadingWidget;
 		};
+		267EA1262236BD0C00C6F032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267EA1202236BD0B00C6F032 /* ContentSquare.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A0BFC1D1F14FC9D004E88D6;
+			remoteInfo = ContentSquare;
+		};
+		267EA1282236BD0C00C6F032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267EA1202236BD0B00C6F032 /* ContentSquare.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A0BFC261F14FC9D004E88D6;
+			remoteInfo = ContentSquareTests;
+		};
+		267EA12A2236BD1D00C6F032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267EA1202236BD0B00C6F032 /* ContentSquare.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0BFC1C1F14FC9D004E88D6;
+			remoteInfo = ContentSquare;
+		};
 		B018501920BC85E400A508F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D499142D181D51DE00E6073C /* Project object */;
@@ -3156,6 +3179,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				267EA12D2236BD5D00C6F032 /* ContentSquare.framework in Embed Frameworks */,
 				D8FAC7DD1D6F88AB00C2A6BC /* WMF.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -3331,6 +3355,7 @@
 		0EF863501C19E4F100006D2D /* WMFEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMFEmptyView.m; path = Wikipedia/Code/WMFEmptyView.m; sourceTree = SOURCE_ROOT; };
 		19A171644189467D5A195AE3 /* SavedPageSpotlightManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedPageSpotlightManagerTest.m; sourceTree = "<group>"; };
 		19A172FA6AE61E76FCEF4259 /* NSUserActivity+WMFExtensionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserActivity+WMFExtensionsTest.m"; sourceTree = "<group>"; };
+		267EA1202236BD0B00C6F032 /* ContentSquare.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ContentSquare.xcodeproj; path = ../../ContentSquare.xcodeproj; sourceTree = "<group>"; };
 		41CCB67321CC1F9700206B47 /* SavedArticlesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedArticlesCollectionViewController.swift; sourceTree = "<group>"; };
 		41FCAA3521C844CB001D8411 /* ReadingListEntryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListEntryCollectionViewController.swift; sourceTree = "<group>"; };
 		672F0557222F24FB00FB1084 /* IconBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBarButtonItem.swift; sourceTree = "<group>"; };
@@ -4772,6 +4797,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267EA12C2236BD2C00C6F032 /* ContentSquare.framework in Frameworks */,
 				D8CD97601E83F68400ECCA9D /* SafariServices.framework in Frameworks */,
 				D8D906941DF58D1900853BFD /* libsqlite3.tbd in Frameworks */,
 				D8D553621DF1B63200B90177 /* QuartzCore.framework in Frameworks */,
@@ -5886,6 +5912,15 @@
 				B09B03EC1CE0FB4200009083 /* PageHistorySection.swift */,
 			);
 			name = PageHistory;
+			sourceTree = "<group>";
+		};
+		267EA1212236BD0B00C6F032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				267EA1272236BD0C00C6F032 /* ContentSquare.framework */,
+				267EA1292236BD0C00C6F032 /* ContentSquareTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7A03130021542F120095C953 /* Operations */ = {
@@ -7386,6 +7421,7 @@
 		D4991437181D51DE00E6073C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				267EA1202236BD0B00C6F032 /* ContentSquare.xcodeproj */,
 				B09BE6A01FB3DA45007F52E3 /* WebKit.framework */,
 				D8CD975F1E83F68400ECCA9D /* SafariServices.framework */,
 				D8D906931DF58D1800853BFD /* libsqlite3.tbd */,
@@ -8456,6 +8492,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				267EA12B2236BD1D00C6F032 /* PBXTargetDependency */,
 				D88DBBBB1D8B322400134A50 /* PBXTargetDependency */,
 				0E83806F1D64989F0076EDE4 /* PBXTargetDependency */,
 				D85D34CF1D74D07500845125 /* PBXTargetDependency */,
@@ -8984,6 +9021,12 @@
 			mainGroup = D499142C181D51DE00E6073C;
 			productRefGroup = D4991436181D51DE00E6073C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 267EA1212236BD0B00C6F032 /* Products */;
+					ProjectRef = 267EA1202236BD0B00C6F032 /* ContentSquare.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D4991434181D51DE00E6073C /* Wikipedia */,
@@ -9006,6 +9049,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		267EA1272236BD0C00C6F032 /* ContentSquare.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ContentSquare.framework;
+			remoteRef = 267EA1262236BD0C00C6F032 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		267EA1292236BD0C00C6F032 /* ContentSquareTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ContentSquareTests.xctest;
+			remoteRef = 267EA1282236BD0C00C6F032 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0E8380611D64989F0076EDE4 /* Resources */ = {
@@ -12024,6 +12084,11 @@
 			isa = PBXTargetDependency;
 			target = 0E8380621D64989F0076EDE4 /* ContinueReadingWidget */;
 			targetProxy = 0E83806E1D64989F0076EDE4 /* PBXContainerItemProxy */;
+		};
+		267EA12B2236BD1D00C6F032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ContentSquare;
+			targetProxy = 267EA12A2236BD1D00C6F032 /* PBXContainerItemProxy */;
 		};
 		B018501A20BC85E400A508F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

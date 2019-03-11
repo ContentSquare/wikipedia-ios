@@ -3,21 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>com.apple.developer.associated-domains</key>
-	<array>
-		<string>applinks:*.wikipedia.org</string>
-		<string>webcredentials:*.wikipedia.org</string>
-		<string>activitycontinuation:*.wikipedia.org</string>
-		<string>applinks:wikipedia.org</string>
-		<string>activitycontinuation:wikipedia.org</string>
-		<string>webcredentials:wikipedia.org</string>
-	</array>
+	<array/>
 	<key>com.apple.developer.default-data-protection</key>
-	<string>NSFileProtectionCompleteUntilFirstUserAuthentication</string>
+	<string>NSFileProtectionComplete</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.org.wikimedia.wikipedia</string>
-		<string>group.org.wikimedia.wikipedia.alpha</string>
-		<string>group.org.wikimedia.wikipedia.beta</string>
+		<string>group.com.contentsquare.wikipedia</string>
 	</array>
 </dict>
 </plist>

@@ -6,6 +6,7 @@
 #import "UIApplicationShortcutItem+WMFShortcutItem.h"
 #import "Wikipedia-Swift.h"
 #import "WMFQuoteMacros.h"
+#import "ContentSquare/ContentSquare.h"
 
 static NSTimeInterval const WMFBackgroundFetchInterval = 10800; // 3 Hours
 
@@ -79,6 +80,9 @@ static NSTimeInterval const WMFBackgroundFetchInterval = 10800; // 3 Hours
     [UNUserNotificationCenter currentNotificationCenter].delegate = vc; // this needs to be set before the end of didFinishLaunchingWithOptions:
     [vc launchAppInWindow:self.window waitToResumeApp:self.appNeedsResume];
     self.appViewController = vc;
+#if DEBUG
+    ContentSquare.isDebug = true;
+#endif
 
     [self updateDynamicIconShortcutItems];
 

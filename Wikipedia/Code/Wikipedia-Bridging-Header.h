@@ -13,7 +13,6 @@
 #import "WMFSearchResults.h"
 #import "MWKSearchRedirectMapping.h"
 #import "WMFSearchFetcher.h"
-#import "WMFURLSchemeHandler.h"
 
 #import "WMFArticleTextActivitySource.h"
 
@@ -26,6 +25,7 @@
 #import "PreviewHtmlFetcher.h"
 
 #import "WikiTextSectionUploader.h"
+#import "WMFArticleJSONCompilationHelper.h"
 
 // Model
 #import "MWKLicense.h"
@@ -56,9 +56,9 @@
 #import "WMFLanguageCell.h"
 #import "WMFRandomArticleViewController.h"
 #import "WMFCompassView.h"
-#import "WMFFindInPageKeyboardBar.h"
 #import "WKWebView+ElementLocation.h"
 #import "UIScrollView+WMFContentOffsetUtils.h"
+#import "WKWebView+WMFWebViewControllerJavascript.h"
 
 // Diagnostics
 #import "WMFSearchFunnel.h"

@@ -6,7 +6,7 @@
 #import "UIApplicationShortcutItem+WMFShortcutItem.h"
 #import "Wikipedia-Swift.h"
 #import "WMFQuoteMacros.h"
-#import "ContentSquare/ContentSquare.h"
+#import "Contentsquare/Contentsquare.h"
 
 static NSTimeInterval const WMFBackgroundFetchInterval = 10800; // 3 Hours
 
@@ -88,7 +88,7 @@ static NSTimeInterval const WMFBackgroundFetchInterval = 10800; // 3 Hours
     [vc launchAppInWindow:self.window waitToResumeApp:self.appNeedsResume];
     self.appViewController = vc;
 #if DEBUG
-    ContentSquare.isDebug = true;
+    Contentsquare.isDebug = true;
 #endif
 
     [self updateDynamicIconShortcutItems];

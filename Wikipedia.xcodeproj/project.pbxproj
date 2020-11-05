@@ -26,6 +26,8 @@
 		00AB75BD24D4E8FB0041056A /* WMF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D844D96C1D6CB2600042D692 /* WMF.framework */; };
 		00D280F7247EFFFE006BEE23 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D280F6247EFFFE006BEE23 /* Date+Extensions.swift */; };
 		041EFC371996A1F800B2CB28 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041EFC361996A1F800B2CB28 /* MapKit.framework */; };
+		058FF7142553F87B00B015C3 /* ContentsquareModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058FF7122553F7F300B015C3 /* ContentsquareModule.framework */; };
+		058FF7152553F87B00B015C3 /* ContentsquareModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 058FF7122553F7F300B015C3 /* ContentsquareModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0E281A331DC263DE00FA1AB1 /* WMFLegacyReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E281A321DC263DE00FA1AB1 /* WMFLegacyReference.swift */; };
 		0E36C2271AE0B59D00C58CFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4991453181D51DE00E6073C /* Images.xcassets */; };
 		0E4A34721CBBFCD400A400F6 /* WMFImageGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A34711CBBFCD400A400F6 /* WMFImageGalleryViewController.m */; };
@@ -1186,6 +1188,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				D8FAC7DD1D6F88AB00C2A6BC /* WMF.framework in Embed Frameworks */,
+				058FF7152553F87B00B015C3 /* ContentsquareModule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1215,6 +1218,7 @@
 		00D5593424DB152300C78F08 /* WidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetsExtension.entitlements; sourceTree = "<group>"; };
 		040E5C4E184566F4007AFE6F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		041EFC361996A1F800B2CB28 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		058FF7122553F7F300B015C3 /* ContentsquareModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ContentsquareModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BFDFB72551986500D5B057 /* ContentsquareModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ContentsquareModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E10C4FD1C81046300CEB5C2 /* Wikipedia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wikipedia.entitlements; sourceTree = "<group>"; };
 		0E19B99D1DA7CAC200239F3A /* WMFFeedDayResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFFeedDayResponse.h; sourceTree = "<group>"; };
@@ -2791,6 +2795,7 @@
 				D82FDAE31DF0A9DC00DDF311 /* Mantle.framework in Frameworks */,
 				D4991439181D51DE00E6073C /* Foundation.framework in Frameworks */,
 				041EFC371996A1F800B2CB28 /* MapKit.framework in Frameworks */,
+				058FF7142553F87B00B015C3 /* ContentsquareModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5463,6 +5468,7 @@
 		D4991437181D51DE00E6073C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				058FF7122553F7F300B015C3 /* ContentsquareModule.framework */,
 				05BFDFB72551986500D5B057 /* ContentsquareModule.framework */,
 				83B019D524F6C31B0014B5EF /* WidgetKit.framework */,
 				83AF34F624D3341D000046D6 /* BackgroundTasks.framework */,
